@@ -1,0 +1,38 @@
+body{
+	background-color:  #00ffff;
+}
+.flex-container{
+	display: flex;
+	background-color: #9900cc;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 37px;
+}
+.flex-container > div {
+	background-color: #ff0000;
+	padding: 10px;
+	margin: 10px;
+}
+h2{
+	text-align: center;
+	color:  #ffffff;
+	font-variant: bold;
+	font-size: 40px;
+}
+p{
+	color:  #ffffff;
+}
+img{
+	border:5px;
+	margin: 5px;
+}
+.floatr{
+	float: right;
+}
+.biggerpic{
+	width: 65%;
+}
+h1{
+	color:  #ffffff;
+	text-align: center;
+}

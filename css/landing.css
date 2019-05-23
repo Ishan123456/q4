@@ -1,0 +1,37 @@
+.bphoto{
+	background-image: url(../images/india1.gif);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.bphoto h1{
+	font-size: 60px;
+	color:   #0000ff;
+	margin-bottom: 5px;
+}
+.button{
+	text-decoration: none;
+	font-size: 40px;
+	border: black 1px solid;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	color:   #0000ff;
+}
+a:hover{
+color: black;
+background-color: white;
+}
+.button1{
+	text-decoration: none;
+	font-size: 40px;
+	border: black 1px solid;
+	padding: 10px;
+	background-color: rgba(255, 153, 51, .5);
+	border-radius: 10px;
+}

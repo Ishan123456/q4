@@ -1,0 +1,25 @@
+.flex-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.c1{
+	border: 2px black solid;
+	flex: 1;
+}
+.c2{
+	border: 2px black solid;
+	flex: 2;
+}
+.c3{
+	border: 2px black solid;
+	flex: 1;
+}
+h1{
+	text-align: center;
+}
+.head{
+	border: 2px black solid;
+}

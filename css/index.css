@@ -1,0 +1,64 @@
+.flex-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color:  #ff6600;
+}
+.c1{
+	border: 2px black solid;
+	flex: 1;
+	background-color: #ff00ff;
+}
+.c2{
+	border: 2px black solid;
+	flex: 2;
+}
+.c3{
+	border: 2px black solid;
+	flex: 1;
+}
+h1{
+	text-align: center;
+}
+img{
+	width: 100%;
+}
+.img2{
+	width: 400px;
+	float: center;
+}
+.cleared{
+	display: flow-root;
+}
+h2{
+	text-align: center;
+	font-variant: bold;
+	font-size: 25px;
+}
+p{
+	text-align: center;
+	font-size: 18px;
+}
+a{
+	text-align: center;
+	border: 2px black solid;
+	padding: 5px;
+	margin: 5px;
+	background-color:  #3366ff;
+	display: block;
+}
+a:link{
+	color: #800000;
+}
+a:visited{
+	color: #cc00ff;
+}
+a:hover{
+	color: #00ffff;
+}
+a:active{
+	color: #ffff00;
+}
+

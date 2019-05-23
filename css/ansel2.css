@@ -1,0 +1,170 @@
+.header{
+	width: 1250px;
+}
+p{
+	padding-left: 10px;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #4f4e4d;
+	color: #ffffff;
+}
+.button1{
+	text-decoration: none;
+	font-size: 40px;
+	border: black 1px solid;
+	padding: 10px;
+	background-color: rgba(255, 255, 255,.5);
+	border-radius: 10px;
+}
+.bphoto{
+	background-image: url(../images/aspens_big.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.flex-container2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.flex-container > div{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.c1{
+	background-color: #ec7e38;
+	order: 1;
+	flex: 1;
+	text-align: center;
+}
+.c2{
+	background-color: #e8834b;
+	order: 2;
+	flex: 1;
+	text-align: center;
+}
+.c3{
+	background-color: #e89160;
+	order: 3;
+	flex: 1;	
+	text-align: center;
+}
+.c4{
+	background-color: #e89d74;
+	order: 4;
+	flex: 1;	
+	text-align: center;
+}
+img{
+	width: 200px;
+}
+h3{
+	color: #e8834b;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.alan{
+	width: 100px;
+	padding-right: 5px;
+	float: left;
+}
+h4{
+text-decoration: bold;
+}
+.cleared{
+	display: flow-root;
+}
+.leftcolumn{
+	float: left;
+}
+.flex-container3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.rightcolumn{
+	float: right;
+}
+.alan2{
+	width: 100px;
+	padding-left: 5px;
+	float: left;
+}
+.d1{
+	order: 1;
+	width: 50%;
+}
+.d2{
+	order: 3;
+	width: 50%;
+}
+.d3{
+	order: 2;
+	width: 50%;
+}
+.d4{
+	order: 4;
+	width: 50%;	
+}
+@media screen and (max-width: 600px){
+	.flex-container2{
+		flex-direction: column;
+	}
+	.flex-container{
+		flex-direction: column;
+	}
+}
+h4{
+	font-weight: bold;
+	font-size: 17px;
+}
+.leftcol{
+	float: left;
+	width: 75%;
+	justify-content: left;
+}
+.alan3{
+	width: 300px;
+	float: right;
+}
+hr{
+	border: #ec7e38 solid;
+}
+h5{
+	color: #e8834b;
+	text-align: center;
+	font-size: 30px;
+}
+.flex-container4{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.e1{
+	flex-basis: 50%;
+	border-right: 0.5px black solid;
+}
+.head{
+	border: 2px black solid;
+}
+.e2{
+	flex: 1;
+}
+li{
+	list-style: none;
+}
+a{
+	color: white;
+}
